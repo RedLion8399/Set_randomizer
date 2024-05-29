@@ -16,11 +16,11 @@ def main(names: list):
     return
 
 
-# # Get List of names as user input
-# names = input("Enter the list of names. Seperated by comma: ").split(",")
-# # run main function with list of names
-# main(names)
-
-
-names = ["Mark", "Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Henry", "Ivy", "Jack", "Kate", "Liam", "Mia", "Nick", "Olivia", "Paul", "Quinn", "Rachel", "Sam", "Toby", "Ursula", "Victor", "Wendy", "Xavier"]
+# Get List of names as user input
+names = input("Enter the list of names. Seperated by comma: ").split(",")
+# run main function with list of names
 main(names)
+
+
+# names = ["Mark", "Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Henry", "Ivy", "Jack", "Kate", "Liam", "Mia", "Nick", "Olivia", "Paul", "Quinn", "Rachel", "Sam", "Toby", "Ursula", "Victor", "Wendy", "Xavier"]
+# main(names)
